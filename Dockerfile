@@ -4,7 +4,7 @@ MAINTAINER cliffrowley@gmail.com
 RUN apk --update add curl
 
 RUN mkdir -p /minecraft/data && \
-  curl -o /minecraft/minecraft_server.jar https://launcher.mojang.com/mc/game/1.9.4/server/edbb7b1758af33d365bf835eb9d13de005b1e274/server.jar
+  curl -o /minecraft/minecraft_server.jar https://launcher.mojang.com/mc/game/1.11/server/48820c84cb1ed502cb5b2fe23b8153d5e4fa61c0/server.jar
 
 WORKDIR /minecraft/data
 
