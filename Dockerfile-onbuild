@@ -16,3 +16,6 @@ EXPOSE 25565
 VOLUME /minecraft/data
 
 CMD ["sh", "run.sh"]
+
+ONBUILD WORKDIR /minecraft
+ONBUILD RUN ./install.sh
